@@ -37,6 +37,16 @@ body {
 
 
   /* Styles for screens wider than 1024px */
+  @media only screen and (min-width: 1025px) {
+    .eyes {
+      width: 1024px;
+    }
+  }
+  @media only screen and (min-width: 1025px) {
+    body {
+      background-size: 1024px 768px;
+    }
+  }
 @media only screen and (min-width: 1025px) {
   .eye {
     width: 210px;
@@ -51,6 +61,17 @@ body {
 
 /* Styles for screens between 769px and 1024px wide */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .eyes {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-size: 768px 576px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .eye {
     width: 180px;
     height: 120px;
@@ -64,6 +85,16 @@ body {
 
 /* Styles for screens smaller than 768px wide */
 @media only screen and (max-width: 768px) {
+  .eyes {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: 600px 450px;
+  }
+}
+@media only screen and (max-width: 768px) {
   .eye {
     width: 150px;
     height: 100px;
@@ -76,6 +107,16 @@ body {
 }
 
 /* Styles for screens smaller than 600px wide */
+@media only screen and (max-width: 600px) {
+  .eyes {
+    width: 480px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: 480px 360px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .eye {
     width: 120px;
