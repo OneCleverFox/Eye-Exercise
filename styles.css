@@ -37,16 +37,7 @@ body {
 
 
   /* Styles for screens wider than 1024px */
-  @media only screen and (min-width: 1025px) {
-    .eyes {
-      width: 1024px;
-    }
-  }
-  @media only screen and (min-width: 1025px) {
-    body {
-      background-size: 1024px 768px;
-    }
-  }
+  
 @media only screen and (min-width: 1025px) {
   .eye {
     width: 210px;
